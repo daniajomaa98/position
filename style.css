@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  margin: 0;
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif;
+}
+
+.hero-section{
+  background-color: #E4F9F5;
+
+}
+.hero-section h1{
+  font-family: Sacramento, serif;
+  font-size: 90px;
+  text-align: center;
+}
+.primary-color{
+  color: #66bfbf;
+}
+.hero-section p{
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+.hero-section p span{
+  text-decoration: underline;
+}
+.hero-section img:nth-of-type(1){
+  position: relative;
+  left: 400px;
+  top: 50px;
+}
+.hero-section img:nth-of-type(2){
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.skills, 
+.breif,
+.contanct {
+  width: 800px;
+  margin:60px auto 0;
+}
+.breif img{
+  width: 250px;
+  height: 250px;
+}
+
+h1{
+  font-size: 40px;
+}
+hr{
+  width: 10%;
+  border: none;
+  border-bottom: dotted 6px #eaf6f6;
+}
+.skill img{
+  width: 30%;
+  float: left;
+}
+
+.skill{
+  text-align: left;
+}
+.skill:nth-child(odd) img{
+  float: right;
+}
+.footer{
+  background-color: #66bfbf;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.footer a{
+  margin-right: 16px;
+  text-decoration: none;
+  color: white;
+}
+.footer p{
+  margin-bottom: 0;
+}
+.btn {
+  display: block;
+  width: 30%;
+  margin: 20px auto;
+  background: #66bfbf;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
